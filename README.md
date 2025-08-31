@@ -1,4 +1,4 @@
-# Proyecto de Detección de Objetos en PCB: YOLOv8 vs RT-DETR
+# Proyecto de Detección de Objetos en PCB: YOLOv8
 
 Este proyecto académico compara el rendimiento de diferentes modelos de detección de objetos (YOLOv8) en la detección de componentes en placas de circuito impreso (PCB).
 

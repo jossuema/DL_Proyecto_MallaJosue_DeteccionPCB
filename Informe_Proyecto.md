@@ -28,7 +28,7 @@ Este proyecto presenta un estudio comparativo entre dos arquitecturas de detecci
 
 **Conclusiones:** Los resultados demuestran que YOLOv8s es más adecuado para aplicaciones de inspección PCB en tiempo real, mientras que YOLOv8l ofrece ventajas en escenarios que priorizan la precisión sobre la velocidad.
 
-**Palabras clave:** detección de objetos, PCB, defectos, YOLOv8, RT-DETR, transformers, computer vision
+**Palabras clave:** detección de objetos, PCB, defectos, YOLOv8, computer vision
 
 ---
 
