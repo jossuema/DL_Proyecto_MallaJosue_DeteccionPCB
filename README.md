@@ -169,27 +169,6 @@ Después de la ejecución, encontrarás:
 4. **graficas/**: Gráficas comparativas y gráfico radar
 5. **README.md**: Resumen de resultados
 
-## 🔧 Troubleshooting
-
-### Problemas Comunes
-
-1. **Error de memoria GPU**:
-   - Reduce batch_size
-   - Usa RT-DETR-s instead of RT-DETR-l
-
-2. **API Key de Roboflow inválida**:
-   - Verifica que copiaste correctamente la key
-   - Asegúrate de tener acceso al dataset
-
-3. **Entrenamiento lento**:
-   - Verifica que GPU esté habilitada
-   - Reduce número de épocas para pruebas rápidas
-
-### Optimizaciones
-
-- Para pruebas rápidas: Reduce épocas a 20-30
-- Para mejor precisión: Aumenta épocas a 150-200
-- Para deployment: Exporta modelos a ONNX/TensorRT
 
 ## 📚 Referencias
 
