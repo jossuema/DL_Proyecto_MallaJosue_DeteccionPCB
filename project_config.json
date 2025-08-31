@@ -1,0 +1,68 @@
+{
+  "project_name": "PCB Electronic components detection",
+  "version": "1.0",
+  "author": "Manuel Josue Malla",
+  "created_date": "2025-08-30",
+  "description": "Proyecto académico de Deep Learning comparando YOLOv8",
+  "models": [
+    "YOLOv8s",
+    "YOLOv8m",
+    "YOLOv8l"
+  ],
+  "dataset": {
+    "name": "Printed Circuit Board Components",
+    "source": "Roboflow Universe",
+    "url": "https://universe.roboflow.com/roboflow-100/printed-circuit-board",
+    "license": "CC BY 4.0",
+    "classes": [
+      "Battery",
+      "Button",
+      "Buzzer",
+      "Capacitor",
+      "Capacitor Jumper",
+      "Clock",
+      "Connector",
+      "Diode",
+      "Display",
+      "EM",
+      "Electrolytic Capacitor",
+      "Ferrite Bead",
+      "Fuse",
+      "Heatsink",
+      "IC",
+      "Inductor",
+      "Jumper",
+      "Led",
+      "PS",
+      "Pads",
+      "Pins",
+      "Potentiometer",
+      "Resistor",
+      "Resistor Jumper",
+      "Resistor Network",
+      "SK",
+      "Switch",
+      "Test Point",
+      "Transformer",
+      "Transistor",
+      "Zener Diode"
+    ]
+  },
+  "metrics": [
+    "mAP@0.5",
+    "mAP@0.5:0.95",
+    "Precision",
+    "Recall",
+    "F1-Score",
+    "FPS"
+  ],
+  "environment": {
+    "platform": "Google Colab",
+    "gpu": "NVIDIA T4",
+    "frameworks": [
+      "PyTorch",
+      "Ultralytics",
+      "Transformers"
+    ]
+  }
+}
