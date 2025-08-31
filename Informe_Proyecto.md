@@ -2,7 +2,7 @@
 # Detección de componentes electrónicos en PCB: estudio comparativo de YOLOv8
 
 ## INFORMACIÓN DEL DOCUMENTO
-**Título:** Detección de componentes electrónicos en PCB: estudio comparativo de YOLOv8 y RT-DETR
+**Título:** Detección de componentes electrónicos en PCB: estudio comparativo de YOLOv8
 
 **Autor:** Manuel Josue Malla
 
